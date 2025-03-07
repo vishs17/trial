@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plates4All</title>
+    <style>
+        body {
+            background-color: #0d0f1a;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 80px 20px;
+        }
+        .logo {
+            width: 200px;
+            margin-top: 40px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 10px 0;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        .btn {
+            border: 2px solid cyan;
+            padding: 12px 25px;
+            color: cyan;
+            text-decoration: none;
+            margin: 15px;
+            display: inline-block;
+            font-size: 1em;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background-color: cyan;
+            color: #0d0f1a;
+        }
+        .nav {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+        }
+        .nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border: 1px solid white;
+            transition: all 0.3s ease;
+        }
+        .nav a:hover {
+            background-color: white;
+            color: #0d0f1a;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">HOME</a>
+        <a href="#">COMMUNITY</a>
+        <a href="#">JOIN US</a>
+    </div>
+    <div class="container">
+        <h1>PLATES4ALL</h1>
+        <p>TURNING EXCESS INTO ESSENTIAL</p>
+        <div class="buttons">
+            <a href="#" class="btn">DONOR</a>
+            <a href="#" class="btn">CONTRIBUTOR</a>
+            <a href="#" class="btn">VOLUNTEER</a>
+        </div>
+        <img src="logo.png" class="logo" alt="Plates4All Logo">
+    </div>
+</body>
+</html>
